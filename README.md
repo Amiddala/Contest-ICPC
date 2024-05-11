@@ -124,3 +124,33 @@ Para borrar una rama sin importar si esta fusionada o no
 Se produce conflictos cuando git no es capaz de determinar que cambio es el que tiene que quedarse cuando fusionen las ramas, por lo que el usuario tiene que resolver
 
 Para arreglarlo podemos elegir los cambios de que rama mantenemos o también personalizarlo para mantener los cambios de ambos pero en distintas líneas 
+
+## CLASE 3
+***ORIGIN.-***
+Este será el nombre de la rama remota, es predeterminado pero cuando trabajemos con mas ramas remotas podrán tener otros nombres
+
+##### COMANDO PARA ENLAZAR REPOSITORIO LOCAL AL REMOTO
+
+``git remote add origin <url-de-repositorio-remoto>”``
+
+La url puede ser la https o ssh
+
+###### COMANDO PARA VER SI SE CONECTO EL REMOTO CON EL LOCAL 
+
+``git remote -v``
+
+##### COMANDO PARA SINCRONIZAR EL LOCAL CON EL REMOTO
+
+``git push origin main``
+
+
+##### COMANDO QUE NO SE DEBE HACER
+
+``git push -f origin main``
+
+Esto eliminaría archivos del repo remoto, muy peligroso si trabajamos en equipo
+
+##### COMANDO PARA CLONAR REPOSITORIO
+Se clonan todos los archivos y ramas del repositorio remoto con:
+
+``git clone <url-de-repositorio-remoto>``
