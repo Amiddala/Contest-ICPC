@@ -201,4 +201,28 @@ Para pull no hay forma abreviada con -u
 Petición de cambios que se envía al repositorio local
 Para hacer una buena pull request debemos enfocar nuestro código en una sola cosa y explicarla
 
+## CLASE 5 Y 6
 
+### Git Flow
+**Main .-** contiene el codigo de producción
+Develop.- código de preproducción que debe ser probado y evaluado
+Feature.- características nuevas para el proyecto
+
+**Release.-** cambios de ultimo momento
+
+**Hotfix.-** parches o arreglar bugs pequeños
+
+### Github Flow
+Una alternativa simple que solo contiene una rama main y cualquier otra rama se agrega por una pull request
+
+### Trunk base development
+
+Estrategia que prioriza hacer commits directamente a la rama principal
+
+#### SHIP/SHOW/ASK
+
+**Ship.-** se fusiona en la rama principal sin revisión previa
+
+**Show.-** abre una petición de cambios para ser revisados y cuando son aceptados se fusionan inmediatamente
+
+**Ask.-** abre una pull request para discutir cambios antes de fusionarlos
