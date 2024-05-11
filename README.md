@@ -226,3 +226,12 @@ Estrategia que prioriza hacer commits directamente a la rama principal
 **Show.-** abre una petición de cambios para ser revisados y cuando son aceptados se fusionan inmediatamente
 
 **Ask.-** abre una pull request para discutir cambios antes de fusionarlos
+
+### Buenas practicas
+
+Es un estándar manejado en la mayoría de equipos de desarrollo ara resolver conflictos durante su desarrollo
+
+Hacer commits a menudo, agrupando pequeñas mejoras, no significa hacer commits sin sentido, hacer buenos commits, que sean claros y con buena semántica.
+Unos buenos commits no contienen puntos finales ni suspensivos, como máximo 50 caracteres para escribir el commit
+
+También es bueno escribir un buen nombre de rama, preferible si el nombre de la rama es dado por la acción que realiza
