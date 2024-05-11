@@ -17,3 +17,9 @@ si queremos información mas detallada podemos entrar a un articulo de git a tra
 
 ``Git init --help``
 
+### Estados de git
+Cualquier archivo dentro de un directorio con git debe pasar por 3 estados:
+
++ **Modified**
++ **Staged**
++ **Commited**
