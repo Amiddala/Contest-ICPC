@@ -235,3 +235,13 @@ Hacer commits a menudo, agrupando pequeñas mejoras, no significa hacer commits 
 Unos buenos commits no contienen puntos finales ni suspensivos, como máximo 50 caracteres para escribir el commit
 
 También es bueno escribir un buen nombre de rama, preferible si el nombre de la rama es dado por la acción que realiza
+
+## CLASE 7
+#### DESHACER CAMBIOS 
+
+Podemos deshacer cambios en caso de :
+
++ Dejo de funcionar el proyecto
++ Para recuperar código que eliminamos
++ Recuperar archivos eliminados
+
