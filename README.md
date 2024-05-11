@@ -167,3 +167,38 @@ Se clonan todos los archivos y ramas del repositorio remoto con:
 
 ``git remote prune origin``
 
+## CLASE 4 
+
+#### GIT PUSH
+
+Llevar modificaciones de mi repositorio local a uno remoto
+
+#### GIT PULL
+
+Traer modificaciones del repositorio remoto a mi repositorio local
+
+##### COMANDO PARA ACORTAR EL GIT PUSH
+Para solo poner git push en vez de repetir siempre el git push origin“nombre de rama”, tenemos que usar este comando
+
+``git push -u origin <nombre-de-rama>``
+
+##### COMANDO PARA ACORTAR EL GIT PULL
+
+``git push –set-upstream origin “nombre de rama”``
+
+Para pull no hay forma abreviada con -u
+
+##### COMANDO PARA SUBIR TODAS LAS RAMAS AL REPOSITORIO REMOTO
+
+``git push  --all``
+
+##### COMANDO PARA BAJAR TODAS LAS REMAS A MI REPOSITORIO LOCAL
+
+``git pull --all``
+
+### Pull request
+
+Petición de cambios que se envía al repositorio local
+Para hacer una buena pull request debemos enfocar nuestro código en una sola cosa y explicarla
+
+
