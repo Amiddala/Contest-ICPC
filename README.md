@@ -9,19 +9,6 @@
 -
 -
 ## Buenas y malas practicas utilizadas:
-### Buenas practicas 
-- Candy sugirio utilizar nombres descriptivos para las ramas (nuestros nombres).
-- Candy escribia mensajes de commit claros y concisos que describan los cambios realizados..
-- Candy evitaba incluir cambios innecesarios en los commits.
-- Candy nos documentaba y comunicaba los cambios realizados a todo el equipo.
-### Malas Practicas
--Candy no integraba cambios con frecuencia.
 
-"LUIS"
-bueno
-calificame
-malo 
-Realize un push force y arruine una parte
-No documento bien los commits
 ## GIT HOOKS UTILIZADOS
 pre-commit luis lo habilito para se haga automaticamente cada ves que se mande un commit
