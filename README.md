@@ -8,7 +8,7 @@
 - ultimo dia y no hicimos nada
 ## Buenas y malas practicas utilizadas:
 luis ya se equivoco 2 veces
-chamba
+chamba efenomas
 ## GIT HOOKS UTILIZADOS
 Nose ayuda
 (borra esto)
